@@ -42,7 +42,7 @@ console.log(carnet);
  */
 
 //Actividad 4
-/* 
+/*
 let integrante1 = prompt('Ingrese integrante 1');
 let integrante2 = prompt('Ingrese integrante 2');
 let integrante3 = prompt('Ingrese integrante 3');
@@ -83,7 +83,7 @@ if (nombre == quienfue){
 
 
 //Actividad 2 - Presionar Y
-/* 
+/*
 let letra = prompt("Ingrese una letra");
 
 if (letra == "y" || letra == "Y") {
@@ -95,7 +95,7 @@ if (letra == "y" || letra == "Y") {
 
 //Actividad 3 - ESCOGER PERSONAJE
 
-let numero = prompt("Ingrese un número");
+/* let numero = prompt("Ingrese un número");
 
 if (numero == 1) {
     console.log("Elegiste a Homero");
@@ -106,4 +106,19 @@ if (numero == 1) {
 } else if (numero == 4) {
     console.log("Elegiste a Lisa")
 } else
-    console.log("Ingresa otro número")
+    console.log("Ingresa otro número") */
+
+
+
+//Actividad 4 -   PRESUPUESTO
+
+let numero = prompt("Ingrese un número");
+if (numero >= 0 && numero <= 1000) {
+    console.log("Presupuesto bajo");
+} else if (numero > 1000 && numero <3001) {
+    console.log("Presupuesto medio");
+} else if (numero>3000){
+    console.log("Presupuesto alto");
+} else [
+    console.log("Ingrese un numero natural")
+]
