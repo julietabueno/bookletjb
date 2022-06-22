@@ -83,11 +83,27 @@ if (nombre == quienfue){
 
 
 //Actividad 2 - Presionar Y
-
+/* 
 let letra = prompt("Ingrese una letra");
 
 if (letra == "y" || letra == "Y") {
     console.log("Correcto");
 } else {
     console.log("Error");
-}
+} */
+
+
+//Actividad 3 - ESCOGER PERSONAJE
+
+let numero = prompt("Ingrese un número");
+
+if (numero == 1) {
+    console.log("Elegiste a Homero");
+} else if (numero == 2) {
+    console.log("Elegiste a Marge")
+} else if (numero == 3) {
+    console.log("Elegiste a Bart")
+} else if (numero == 4) {
+    console.log("Elegiste a Lisa")
+} else
+    console.log("Ingresa otro número")
