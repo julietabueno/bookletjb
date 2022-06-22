@@ -59,8 +59,23 @@ console.log(familia);
 
 
 //Actividad 5
-let precio = parseFloat(prompt("INGRESAR PRECIO"));
+/* let precio = parseFloat(prompt("INGRESAR PRECIO"));
 let descuento20 = precio - (precio  * 0.2);
 let descuento30 = precio - (precio  * 0.3);
 console.log(descuento20);
-console.log(descuento30);
+console.log(descuento30); */
+
+
+
+//CLASE 2
+
+//Actividad 1 - YO NO FUI
+
+let nombre = prompt("Ingrese su nombre").toLowerCase();
+let quienfue = "lucas";
+
+if (nombre == quienfue){
+    console.log("Fui Yo");
+} else{
+    console.log("Yo no fui")
+}
