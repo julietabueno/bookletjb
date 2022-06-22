@@ -42,7 +42,7 @@ console.log(carnet);
  */
 
 //Actividad 4
-
+/* 
 let integrante1 = prompt('Ingrese integrante 1');
 let integrante2 = prompt('Ingrese integrante 2');
 let integrante3 = prompt('Ingrese integrante 3');
@@ -55,4 +55,12 @@ let familia =   "1) "+integrante1+" "+
                 "5) "+integrante5;
 console.log(familia);
 
+ */
 
+
+//Actividad 5
+let precio = parseFloat(prompt("INGRESAR PRECIO"));
+let descuento20 = precio - (precio  * 0.2);
+let descuento30 = precio - (precio  * 0.3);
+console.log(descuento20);
+console.log(descuento30);
