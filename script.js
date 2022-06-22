@@ -71,11 +71,23 @@ console.log(descuento30); */
 
 //Actividad 1 - YO NO FUI
 
-let nombre = prompt("Ingrese su nombre").toLowerCase();
+/* let nombre = prompt("Ingrese su nombre").toLowerCase();
 let quienfue = "lucas";
 
 if (nombre == quienfue){
     console.log("Fui Yo");
 } else{
     console.log("Yo no fui")
+}
+ */
+
+
+//Actividad 2 - Presionar Y
+
+let letra = prompt("Ingrese una letra");
+
+if (letra == "y" || letra == "Y") {
+    console.log("Correcto");
+} else {
+    console.log("Error");
 }
