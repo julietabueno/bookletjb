@@ -152,11 +152,55 @@ for(let i =0; i<rep; i++){
 } */
 
 //Actividad 3 - REGISTRO DE ALUMNOS
-let alumno = '';
+/* let alumno = '';
 
 for (let i = 0; i < 10; i++) {
     alumno += prompt("Por favor, ingrese nombre del alumno") + "\n";
 }
 alert(alumno);
 
+ */
+//Actividad 4 - EL INNOMBRABLE
 
+
+/* let lista = '';
+
+do {
+    nombre = prompt("Por favor, ingrese un nombre").toLowerCase();
+    lista += nombre + "\n";
+} while (nombre != "voldemort");
+
+alert(lista); */
+
+//Actividad 5 - COMPRANDO PRODUCTOS
+/* 
+let entrada = prompt("seleccionar un producto del 1 al 4");
+
+while (entrada != 'ESC') {
+    switch (entrada) {
+    case "1":
+        alert("tomate");
+        break;
+    case "2":
+        alert("Papa");
+        break;
+    case "3":
+        alert("Carne");
+        break;
+    case "4":
+        alert("Pollo");
+        break;
+    default:
+        alert("Error");
+        break;
+}
+entrada = prompt("seleccionar un producto del 1 al 4");
+} */
+
+
+
+
+
+//CLASE 4
+
+//ACTIVIDAD 1 - ENTRADAS Y SALIDAS
