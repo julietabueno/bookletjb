@@ -130,10 +130,33 @@ if (numero >= 0 && numero <= 1000) {
 
 //Actividad 1 - El Pizarron
 
-let numero = prompt("Ingrese un numero");
+/* let numero = prompt("Ingrese un numero");
 let texto = prompt("Ingrese una frase");
 let i = 0;
 
 for (i = 0; i < numero; i++){
 alert(texto)
 }
+ */
+
+//Actividad 2 - EL CUADRADO ORDINARIO
+
+/* let rep = parseFloat(prompt("Por favor, ingrese cantidad de lados"));
+
+
+for(let i =0; i<rep; i++){
+    if (i>3){
+        break;
+    }
+    alert("lado");
+} */
+
+//Actividad 3 - REGISTRO DE ALUMNOS
+let alumno = '';
+
+for (let i = 0; i < 10; i++) {
+    alumno += prompt("Por favor, ingrese nombre del alumno") + "\n";
+}
+alert(alumno);
+
+
