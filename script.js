@@ -204,3 +204,18 @@ entrada = prompt("seleccionar un producto del 1 al 4");
 //CLASE 4
 
 //ACTIVIDAD 1 - ENTRADAS Y SALIDAS
+
+
+function entrada () {
+    return prompt("Ingrese el nombre de usuario");
+}
+
+function procesamiento (valor){
+    return "La entrada es " = valor;
+}
+
+function salida (valor){
+    alert(valor);
+}
+
+salida(procesamiento(entrada()));
