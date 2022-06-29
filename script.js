@@ -112,7 +112,7 @@ if (numero == 1) {
 
 //Actividad 4 -   PRESUPUESTO
 
-let numero = prompt("Ingrese un número");
+/* let numero = prompt("Ingrese un número");
 if (numero >= 0 && numero <= 1000) {
     console.log("Presupuesto bajo");
 } else if (numero > 1000 && numero <3001) {
@@ -121,4 +121,19 @@ if (numero >= 0 && numero <= 1000) {
     console.log("Presupuesto alto");
 } else [
     console.log("Ingrese un numero natural")
-]
+] */
+
+
+
+//CLASE 3
+
+
+//Actividad 1 - El Pizarron
+
+let numero = prompt("Ingrese un numero");
+let texto = prompt("Ingrese una frase");
+let i = 0;
+
+for (i = 0; i < numero; i++){
+alert(texto)
+}
