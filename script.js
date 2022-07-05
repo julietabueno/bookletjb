@@ -235,7 +235,7 @@ for (let index = 0; index < 5; index++) {
 
 //Actividad 3 - IMPUESTOS
 
-let precio , porcentaje 
+/* let precio , porcentaje 
 
 function impuesto(precio, porcentaje) {
     return precio + ((precio * porcentaje)/100)
@@ -250,6 +250,42 @@ for (let i = 0; i < 5; i++) {
 
     alert(`El nuevo precio, con el aumento, es de $ ${aumento}.`);
 }
+ */
+//Actividad 4 - COTIZACION
+/* let operacion, pesos, dolar, cambioPesos, cambioDolar, compraD, compraP
+
+function cotizarDolar(pesos, cambioDolar) {
+    return resultadoDolar = pesos / cambioDolar
+}
+
+function cotizarPesos(dolar, cambioPesos) {
+    return resultadoPesos = dolar * cambioPesos
+}
+
+do {
+    operacion = parseInt(prompt("Ingrese 1 si desea comprar Dolares o 2 si desea comprar pesos."))
+    if (operacion === 1) {
+        pesos = parseFloat(prompt("Ingrese el monto en $ a cambiar"));
+        cambioDolar = parseFloat(prompt("Ingrese la cotizacion del dolar"));
+
+        compraD = cotizarDolar(pesos, cambioDolar)
+
+        alert(`Usted va a comprar USD ${compraD}.`)
+    } else if (operacion === 2) {
+        dolar = parseFloat(prompt("Ingrese el monto en U$S a cambiar"));
+        cambioPesos = parseFloat(prompt("Ingrese la cotizacion del peso"));
+
+        compraP = cotizarPesos(dolar, cambioPesos)
+
+        alert(`Usted va a comprar $ ${compraP}.`)
+    } else {
+        alert("Por favor ingrese la operacion que desea realizar.")
+    }
+}
+while (isNaN(operacion) = false)
+ */
+
+
 
 
 //CLASE 5 - OBJETOS
