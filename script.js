@@ -205,7 +205,7 @@ entrada = prompt("seleccionar un producto del 1 al 4");
 
 //ACTIVIDAD 1 - ENTRADAS Y SALIDAS
 
-
+/* 
 function entrada () {
     return prompt("Ingrese el nombre de usuario");
 }
@@ -218,4 +218,42 @@ function salida (valor){
     alert(valor);
 }
 
-salida(procesamiento(entrada()));
+salida(procesamiento(entrada())); */
+
+
+//Actividad 2 - REDONDEO
+/* 
+function redondeo(valor){
+    return Math.round(valor)
+}
+for (let index = 0; index < 5; index++) {
+    let entrada = prompt("INGRESAR NUMERO");
+    alert(redondeo(entrada));
+}
+ */
+
+
+//Actividad 3 - IMPUESTOS
+
+let precio , porcentaje 
+
+function impuesto(precio, porcentaje) {
+    return precio + ((precio * porcentaje)/100)
+    
+}
+
+for (let i = 0; i < 5; i++) {
+    let precio = parseFloat(prompt("Ingrese el precio"));
+    let porcentaje = parseFloat(prompt("Ingrese el porcentaje de aumento"));
+    
+    let aumento = impuesto(precio, porcentaje);
+
+    alert(`El nuevo precio, con el aumento, es de $ ${aumento}.`);
+}
+
+
+//CLASE 5 - OBJETOS
+
+//Actividad 1
+
+
